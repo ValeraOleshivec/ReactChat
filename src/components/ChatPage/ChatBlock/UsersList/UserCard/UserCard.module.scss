@@ -1,0 +1,27 @@
+.Card{
+  width: 390px;
+  display: flex;
+  height: 82px;
+  &__Image{
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 58px;
+    background-size: cover;
+    margin: 12px 0 12px 24px;
+    img{
+      width: 58px;
+      height: 58px;
+      border-radius: 58px;
+    }
+  }
+  p{
+    color: #515151;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px 15px;
+  }
+}

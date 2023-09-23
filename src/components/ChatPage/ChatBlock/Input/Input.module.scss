@@ -1,0 +1,43 @@
+.block{
+  display: flex;
+  width: 100%;
+  height: 92px;
+  background-color: #FFFFFF;
+  border-top: 1px solid #DFDFDF;
+  align-items: center;
+  .inputText{
+    margin-left: 20px;
+    width: 840px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding-left: 20px ;
+    &:focus{
+      outline: none;
+    }
+    &:hover{
+      outline: none;
+      border: 1px solid gray;
+    }
+  }
+  .inputFile{
+    margin-left: 50px;
+    width: 119px;
+    word-wrap: break-word;
+  }
+  button{
+    background-color: #00A3FF;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 30px;
+    &:hover{
+      cursor: pointer;
+      outline: 1px solid cadetblue;
+    }
+  }
+}
