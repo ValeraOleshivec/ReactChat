@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import socketIO from "socket.io-client";
 import message from "../../components/ChatPage/ChatBlock/MessagesList/Message/Message";
 import messagesList from "../../components/ChatPage/ChatBlock/MessagesList/MessagesList";
-export const socket = socketIO.connect("https://main--reliable-yeot-bdb44f.netlify.app");
+export const socket = socketIO.connect("https://reliable-yeot-bdb44f.netlify.app");
 
 const initialState = {
   obj: [],
