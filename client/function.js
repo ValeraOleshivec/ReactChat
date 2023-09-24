@@ -12,6 +12,8 @@ let id = 0;
 let users = [];
 let messages = [];
 
+app.use(express.static(path.join(__dirname, '../client/build')));
+
 app.get("api", (req, res) => {
   res.json({
     message: "Hello",
