@@ -1,10 +1,8 @@
 import React, {useState} from "react";
 import classes from "./Input.module.css";
 import useLists from "../../../../Hooks/useLists";
-import {useSelector} from "react-redux";
-
 const Input = () => {
-    const {pushNewMessages,socket} = useLists()
+    const {socket} = useLists()
     const [value,setValue] = useState('')
     const [image,setImage] = useState('')
     const sendMessage = ()=>{

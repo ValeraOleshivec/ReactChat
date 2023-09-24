@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import socketIO from "socket.io-client";
-import message from "../../components/ChatPage/ChatBlock/MessagesList/Message/Message";
-import messagesList from "../../components/ChatPage/ChatBlock/MessagesList/MessagesList";
 export const socket = socketIO.connect("https://reactchattest-djhc.onrender.com");
 
 const initialState = {
@@ -17,14 +15,6 @@ const joinUser = function (id, name,Avatar) {
   };
   return newUser;
 };
-const newMessage = function (id,name,text){
-  let message={
-    id,
-    name,
-    text
-  };
-  return message
-}
 
 export const userSlice = createSlice({
   name: "userList",

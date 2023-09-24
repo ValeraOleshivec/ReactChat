@@ -4,11 +4,23 @@ aside{
   border-right: 1px solid rgba(94, 94, 94, 0.20);
   background-color: #FFF;
   .Head{
+    padding: 20px 30px;
     display: flex;
-    height: 150px;
     flex-direction: column;
+    height: 150px;
     background-color: #FFF;
     border-bottom: 1px solid gray;
+    &__logo{
+      display: flex;
+    }
+    input{
+      padding-left: 20px;
+      height: 50px;
+      margin-top: 30px;
+      border-radius: 40px;
+      border: 1px solid gray;
+      outline: 0;
+    }
     p{
       height: 40px;
       display: flex;

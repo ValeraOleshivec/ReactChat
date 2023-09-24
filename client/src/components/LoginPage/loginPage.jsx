@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./LoginPage.module.css";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import {useSelector } from "react-redux";
 import useLists from "../../Hooks/useLists";
 
 const LoginPage = (message) => {

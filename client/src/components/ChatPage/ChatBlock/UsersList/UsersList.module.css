@@ -5,11 +5,23 @@ aside {
   background-color: #FFF;
 }
 aside .Head {
+  padding: 20px 30px;
   display: flex;
-  height: 150px;
   flex-direction: column;
+  height: 150px;
   background-color: #FFF;
   border-bottom: 1px solid gray;
+}
+aside .Head__logo {
+  display: flex;
+}
+aside .Head input {
+  padding-left: 20px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 40px;
+  border: 1px solid gray;
+  outline: 0;
 }
 aside .Head p {
   height: 40px;

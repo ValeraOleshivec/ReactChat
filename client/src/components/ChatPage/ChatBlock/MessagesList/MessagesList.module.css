@@ -29,6 +29,13 @@
   height: 58px;
   border-radius: 58px;
 }
+.RightBlock .Buttons {
+  margin: 0 25px 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+}
 .RightBlock .Messages {
   display: block;
   width: 100%;
