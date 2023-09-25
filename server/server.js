@@ -4,7 +4,7 @@ const PORT = 5000;
 const http = require("http").Server(app);
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "https://reliable-yeot-bdb44f.netlify.app/",
+    origin: "https://reliable-yeot-bdb44f.netlify.app",
   },
 });
 
