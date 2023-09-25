@@ -10,6 +10,7 @@ const Input = () => {
         let id = sessionStorage.getItem('id')
         socket.emit('NewMessage',{id,name,value,image})
         setValue('')
+        setImage('')
     }
     const uploadImage=(e)=>{
         console.log(e.target.files)
